@@ -1,44 +1,70 @@
-# ERPNextFinTS
+# FinTS Germany Connector: Seamless Integration between German Banks and Empress
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4160a988f6f245b78917af5b6a717915)](https://app.codacy.com/manual/jHetzer/erpnextfints?utm_source=github.com&utm_medium=referral&utm_content=jHetzer/erpnextfints&utm_campaign=Badge_Grade_Dashboard)
+![fints_germany](https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png
 
-FinTS Connector for ERPNext (Germany)
+Welcome to FinTS Germany Connector, your key to effortlessly integrating German bank accounts with your ERP system. This tool allows you to import "receive" and "pay" payment entries from German banks into Empress, providing a comprehensive financial management solution.
 
-This app allows to import bank information from german banks into ERPNext.\
-The app currently allows to import "receive" and "pay" payment entries.
-The goal is to provide a stable and revision prove solution to sync (German) bank information with ERPNext.\
-Best-case scenario: the functionality gets integrated into ERPNext as regional feature.
+## About The Project
 
-## Requirements
-Python 3.4 <\
-[Python FinTS](https://github.com/raphaelm/python-fints) (will be installed)
+The FinTS Germany Connector bridges the gap between German banking systems and the Empress platform. With this powerful tool, businesses can streamline their banking transactions with Empress, ensuring efficient financial management and revision-proof record keeping. 
 
-## Installation
-```bash
-    cd bench/project/folder
-    bench get-app erpnextfints https://github.com/jHetzer/erpnextfints
-    bench --site [sitename] install-app erpnextfints
-    bench --site [sitename] enable-scheduler   
-```
-## Features
--  [x] FinTS Login
--  [x] Basic FinTS Import
--  [x] Save data as JSON and attach it
--  [x] Add import scheduler
--  [x] Support 'Pay' payment entry type
--  [x] Bank Account Wizard
--  [x] Interactive progress display
--  [x] Complete improving code style (PEP8 / ESLint)
--  [x] Payment / Sale auto assignment (unattended / wizard)
+### Key Features
 
-## ToDo
+- FinTS Login
+- Basic FinTS Import
+- Data saved as JSON and attached
+- Import scheduler
+- Support 'Pay' payment entry type
+- Bank Account Wizard
+- Interactive progress display
+- Payment / Sale auto assignment (unattended / wizard)
 
--  [ ] Unit tests / Cypress-tests
--  [ ] Improve import logs
--  [ ] Legal way to publish/get FinTS URL's
-[https://www.hbci-zka.de/register/bedingungen_bankenliste.htm](https://www.hbci-zka.de/register/bedingungen_bankenliste.htm)
--  [ ] ...
+### Built With
 
-### License
+- Python 3.4
+- [Python FinTS](https://github.com/raphaelm/python-fints)
 
-MIT License
+## Getting Started
+
+### Prerequisites
+
+Ensure Python 3.4 is installed on your system.
+
+### Installation
+
+Follow these simple steps to set up your development environment:
+
+1. Open your terminal and navigate to your project's directory: `cd bench/project/folder`
+2. Clone the FinTS Germany Connector GitHub repository: `bench get-app Empressfints https://github.com/empress-eco/fints_germany.git`
+3. Install the app: `bench --site [sitename] install-app Empressfints`
+4. Enable scheduler: `bench --site [sitename] enable-scheduler`
+
+## Usage
+
+After installation, utilize the FinTS Login feature to connect your German bank accounts with Empress. The tool also supports basic FinTS imports and allows data to be saved as JSON and attached for easy reference and access.
+
+## Contributing
+
+We welcome contributions from the open source community. Here's how you can contribute:
+
+- Fork the Project
+- Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+- Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+- Push to the Branch (`git push origin feature/AmazingFeature`)
+- Open a Pull Request
+
+For more details, please refer to our [Contribution Guidelines](https://github.com/empress-eco/fints_germany/blob/main/CONTRIBUTING.md).
+
+## Reporting Bugs and Requesting Features
+
+Please use the [issues tab](https://github.com/empress-eco/fints_germany/issues) on the project's GitHub page to report bugs or request features.
+
+## License and Acknowledgements
+
+This project is licensed under the MIT License.
+
+We would like to express our profound gratitude to the Empress Community for their foundational contributions to this project. Their dedication and innovation have been instrumental in building the functionalities we rely on. 
+
+For further details, please refer to our [documentation](https://grow.empress.eco/).
+
+For more projects by Empress, visit our [GitHub page](https://github.com/empress-eco/).
