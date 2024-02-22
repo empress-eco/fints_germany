@@ -1,8 +1,14 @@
+
+<div align="center">
+
+<img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Logo" width="80" height="80">
+
 # FinTS Germany Connector: Seamless Integration between German Banks and Empress
 
-![fints_germany](https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png
-
 Welcome to FinTS Germany Connector, your key to effortlessly integrating German bank accounts with your ERP system. This tool allows you to import "receive" and "pay" payment entries from German banks into Empress, providing a comprehensive financial management solution.
+
+
+</div>
 
 ## About The Project
 
